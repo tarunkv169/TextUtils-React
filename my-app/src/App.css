@@ -38,6 +38,30 @@
 }
 
 .blank{
-  color: darkred;
+  color: #d68bd0;
   line-height: 24px;
+}
+
+.form-control{
+  border: 2px solid black;
+}
+
+.button1,.button2,.button3{
+  border-radius: 22px;
+}
+
+
+
+.lang_button{
+  position: relative;
+  height: 22px;
+  border-radius: 24px;
+  margin-left: 10px;
+  padding-bottom: 22px;
+  font: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.btn,.btn-primary{
+  border-radius: 30px;
 }
