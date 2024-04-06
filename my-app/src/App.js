@@ -44,7 +44,7 @@ function App() {
       }
   }
 
-  
+
 
   return (
     <>
@@ -52,9 +52,10 @@ function App() {
       <Navbar title='Textutils' mode={mode} togglemode={togglemode} />
       <Alerts  alert={alerttt} />
       <div className='container mb-3'>
+      {/* <Textarea  text_alert={showalert} heading="Enter text here to analyze"   mode={mode} togglemode={togglemode} /> */}
         <Routes>
-          <Route element={<About/>} path="/About"></Route>
-          <Route element={<Textarea  text_alert={showalert} heading="Enter text here to analyze"   mode={mode} togglemode={togglemode} />} path="/"></Route>
+          <Route element={<About mode={mode} togglemode={togglemode}/>} path="/About"></Route>
+          <Route element={<Textarea  text_alert={showalert} heading="TextUtils - Word Counter, Character Counter,Remove extra spaces" mode={mode} togglemode={togglemode} />} path="/"></Route>
         </Routes>
       </div>
     </Router>
