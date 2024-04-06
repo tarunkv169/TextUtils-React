@@ -1,2 +1,2 @@
-# REACT_JS
+# TextUtils-React
 React course
